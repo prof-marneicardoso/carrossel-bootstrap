@@ -1,0 +1,44 @@
+
+/* body {
+    background-color: aquamarine;
+} */
+
+/* .btn-primary {
+    background-color: blueviolet;
+} */
+
+/* img {
+    background-size: cover;
+    height: 100vh;
+} */
+
+.carousel-item {
+    height: 100vh;
+    /* background-color: black; */
+    background-size: cover;
+}
+
+.carousel-item img {
+    /* opacity: 0.5; */
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    /* filter: brightness(0.5); */
+    /* filter: grayscale(0.8); */
+    /* filter: hue-rotate(50deg); */
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100vh;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #000000;
+}
